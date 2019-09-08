@@ -14,7 +14,7 @@ namespace MyMusicStore.Controllers {
             //return View();
             return HttpUtility.HtmlEncode("Store.Browse, Genre = " + genre);
         }
-        public string Details(int id) {
+        public string Details(string id = "") {
             //return View();
             Console.WriteLine("id: " + id);
             return HttpUtility.HtmlEncode("Store.Details, ID = " + id);
