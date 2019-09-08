@@ -75,8 +75,6 @@
 /Users/owner/CSProjects/WebApplication1/WebApplication1/obj/Debug/MyMusicStore.csproj.CopyComplete
 /Users/owner/CSProjects/WebApplication1/WebApplication1/obj/Debug/WebApplication1.dll
 /Users/owner/CSProjects/WebApplication1/WebApplication1/obj/Debug/WebApplication1.pdb
-/Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/WebApplication1.dll
-/Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/WebApplication1.pdb
 /Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/roslyn/csc.exe
 /Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/roslyn/csc.exe.config
 /Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/roslyn/csc.rsp
@@ -150,5 +148,7 @@
 /Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/MyMusicStore.csprojAssemblyReference.cache
 /Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/MyMusicStore.csproj.CoreCompileInputs.cache
 /Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/MyMusicStore.csproj.CopyComplete
-/Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/WebApplication1.dll
-/Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/WebApplication1.pdb
+/Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/MyMusicStore.dll
+/Users/owner/CSProjects/MyMusicStore/MyMusicStore/bin/MyMusicStore.pdb
+/Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/MyMusicStore.dll
+/Users/owner/CSProjects/MyMusicStore/MyMusicStore/obj/Debug/MyMusicStore.pdb
