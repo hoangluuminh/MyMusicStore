@@ -19,5 +19,9 @@ namespace MyMusicStore.Controllers {
             ViewBag.Message = "Your contact page.";
             return View();
         }
+
+        public ActionResult Edit() {
+            return View();
+        }
     }
 }
