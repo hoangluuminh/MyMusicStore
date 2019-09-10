@@ -133,6 +133,7 @@
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\ShoppingCartViewModel.cs" />
+    <Compile Include="Controllers\SampleController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -173,12 +174,17 @@
     <Content Include="Views\Albums\ListWeaklyTyped.cshtml" />
     <Content Include="Views\Albums\ListStronglyTyped.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\Sample\PartialViewDemo.cshtml" />
+    <Content Include="Views\Sample\NotIndex.cshtml" />
+    <Content Include="Views\Sample\Message.cshtml" />
+    <Content Include="Views\Sample\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Samples\AlbumList\" />
     <Folder Include="Samples\ShoppingCartViewModel\" />
+    <Folder Include="Samples\SpecifyingViews\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
