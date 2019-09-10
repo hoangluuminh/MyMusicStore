@@ -134,6 +134,7 @@
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\ShoppingCartViewModel.cs" />
     <Compile Include="Controllers\SampleController.cs" />
+    <Compile Include="Models\Artist.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
