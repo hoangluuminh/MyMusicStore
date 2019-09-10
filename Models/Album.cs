@@ -1,7 +1,5 @@
-namespace MyMusicStore.Models
-{
-    public class Album
-	{
+namespace MyMusicStore.Models {
+    public class Album {
         public virtual int AlbumId { get; set; }
         public virtual int GenreId { get; set; }
         //public virtual Genre Genre { get; set; }
