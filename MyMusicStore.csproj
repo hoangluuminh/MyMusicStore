@@ -112,6 +112,12 @@
     <Reference Include="System.Web.Http.Common">
       <HintPath>..\packages\System.Web.Http.Common.4.0.20126.16343\lib\net40\System.Web.Http.Common.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -136,6 +142,8 @@
     <Compile Include="Controllers\SampleController.cs" />
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\MusicStoreDB.cs" />
+    <Compile Include="Controllers\StoreManagerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -180,6 +188,7 @@
     <Content Include="Views\Sample\NotIndex.cshtml" />
     <Content Include="Views\Sample\Message.cshtml" />
     <Content Include="Views\Sample\Index.cshtml" />
+    <Content Include="Views\StoreManager\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -187,6 +196,7 @@
     <Folder Include="Samples\AlbumList\" />
     <Folder Include="Samples\ShoppingCartViewModel\" />
     <Folder Include="Samples\SpecifyingViews\" />
+    <Folder Include="Views\StoreManager\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
