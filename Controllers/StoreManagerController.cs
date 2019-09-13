@@ -9,10 +9,10 @@ namespace MyMusicStore.Controllers {
     public class StoreManagerController : Controller {
         private MusicStoreDB db = new MusicStoreDB();
         public ActionResult Index() {
-            var genres = from genre in db.Genres
-                         select genre;
-            var genresList = genres.ToList();
-            return View(genresList);
+            var albums = from album in db.Albums
+                         select album;
+            var albumsList = albums.ToList();
+            return View(albumsList);
         }
     }
 }
