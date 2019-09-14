@@ -220,6 +220,7 @@
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MusicStoreDB.cs" />
     <Compile Include="Controllers\StoreManagerController.cs" />
+    <Compile Include="Models\MusicStoreDbInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
