@@ -1,0 +1,11 @@
+﻿@model IEnumerable<MyMusicStore.Models.Album>
+@{
+    ViewBag.Title = "Edit Album - StoreManager";
+}
+<h2>Store Manager</h2>
+<h3>Edit Album</h3>
+
+<div class="col-md-10">
+    @Html.DropDownList("GenreId", String.Empty)
+    @Html.ValidationMessageFor(model => model.GenreId);
+</div>
