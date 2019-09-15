@@ -15,6 +15,8 @@ namespace MyMusicStore.Controllers {
         // GET: StoreManager
         public ActionResult Index() {
             var albums = db.Albums.Include(a => a.Artist).Include(a => a.Genre);
+            //var albums = from album in db.Albums
+                         //select album;
             return View(albums.ToList());
         }
 

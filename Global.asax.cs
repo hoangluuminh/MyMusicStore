@@ -14,7 +14,7 @@ namespace MyMusicStore {
             //Database.SetInitializer(
             //new DropCreateDatabaseAlways<MusicStoreDB>());
 
-            Database.SetInitializer(new MusicStoreDbInitializer());
+            //Database.SetInitializer(new MusicStoreDbInitializer());
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
