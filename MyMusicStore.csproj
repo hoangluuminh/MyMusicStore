@@ -194,6 +194,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\StoreManagerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -205,6 +206,10 @@
     <Compile Include="Migrations\201909151447160_ArtistAddCountry.cs" />
     <Compile Include="Migrations\201909151447160_ArtistAddCountry.Designer.cs">
       <DependentUpon>201909151447160_ArtistAddCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909190204270_AddModelOrder.cs" />
+    <Compile Include="Migrations\201909190204270_AddModelOrder.Designer.cs">
+      <DependentUpon>201909190204270_AddModelOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -220,6 +225,7 @@
     <Compile Include="Models\MusicStoreDB.cs" />
     <Compile Include="Controllers\OldStoreManagerController.cs" />
     <Compile Include="Models\MusicStoreDbInitializer.cs" />
+    <Compile Include="Models\Order.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -271,6 +277,11 @@
     <Content Include="Views\StoreManager\Details.cshtml" />
     <Content Include="Views\StoreManager\Edit.cshtml" />
     <Content Include="Views\StoreManager\Index.cshtml" />
+    <Content Include="Views\Orders\Create.cshtml" />
+    <Content Include="Views\Orders\Delete.cshtml" />
+    <Content Include="Views\Orders\Details.cshtml" />
+    <Content Include="Views\Orders\Edit.cshtml" />
+    <Content Include="Views\Orders\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -297,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909151447160_ArtistAddCountry.resx">
       <DependentUpon>201909151447160_ArtistAddCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909190204270_AddModelOrder.resx">
+      <DependentUpon>201909190204270_AddModelOrder.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
